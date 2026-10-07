@@ -6,13 +6,17 @@ app = Flask(__name__)
 def home():
     return "HOME PAGE"
 
-@app.route("/about")
-def about():
-    return "ABOUT PAGE"
+@app.route("/users")
+def users():
+    return "THIS IS USERS PAGE"
 
-@app.route("/contact")
-def contact():
-    return "CONTACT US"
+@app.route("/user/<name>")
+def user(name):
+    return f"Hello {name}"
+
+@app.route("/student/<name>/<course>")
+def student(name,course):
+    return f"{name} is learning {course}"
 
 if __name__ == "__main__":
     app.run(debug=True)
