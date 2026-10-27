@@ -6,10 +6,18 @@
     <title>Hello World Page</title>
 </head>
 <body>
-    <h1>Hello, {{ name }}</h1>
+    <h1>Hello, {{ first_name }} {{last_name}}</h1>
     <h1>Your Course is : {{ course }}</h1>
     <h1>Your City : {{ city }}</h1>
-    <p>This is my HTML Page</p>
-    <p>Using JINJA 2 TEMPLATE & FLASK DYNAMIC DATA</p>
+    <h2>Your Course Price : {{course_price}}</h2>
+    <h3>Course_Price including GST : {{course_price + 180}}</h3>
+    <h3>Your Future courses : {{future_courses}}</h3>
+    <h3>Your Total Future courses : {{future_courses | length}}</h3>
+    <p>This is my HTML Page And Here I am performing the filters on numbers for calculations and i am using these numbers (30 and 10)</p>
+    <p>{{30 + 10}}</p>
+    <p>{{30 - 10}}</p>
+    <p>{{30 * 10}}</p>
+    <p>{{30 / 10}}</p>
+    <p>Using JINJA 2 TEMPLATES FILTERS AND EXPRESSIONS</p>
 </body>
 </html>
