@@ -1,10 +1,8 @@
-# Reuseable Content
+# STATIC FILE
 
-## Here made the :
-### HEADER
-### FOOTER
+## MADE THE :
+### style.css - CSS FILE AND LINK IT ON THE BASE.HTML 
 
-And we use further for many other things also
+### script.js - JS FILE AND AN ALERT WITH THE USE OF BUTTON IN INDEX.HTML
 
-## THE METHOD USED HERE IS
-# INCLUDE
+### MY.jpg is used with images for showing images on the web page
