@@ -1,7 +1,10 @@
-# Template Inheritance
+# Reuseable Content
 
 ## Here made the :
+### HEADER
+### FOOTER
 
-### HOME PAGE
-### ABOUT PAGE
-### CONTACT PAGE
+And we use further for many other things also
+
+## THE METHOD USED HERE IS
+# INCLUDE
