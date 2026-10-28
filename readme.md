@@ -1,5 +1,1 @@
-# CONDITIONAL RENDERING
-
-## if
-## elif
-## else
+# FOR LOOPS IN JINJA 2
