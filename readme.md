@@ -1,1 +1,7 @@
-# FOR LOOPS IN JINJA 2
+# Template Inheritance
+
+## Here made the :
+
+### HOME PAGE
+### ABOUT PAGE
+### CONTACT PAGE
